@@ -3,10 +3,9 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
   else
-    print "The line is currently:"
+    puts "The line is currently:" +
     array.each do |customer|
-      print " #{array.index(customer)}. #{customer}"
+      " #{array.index(customer)}. #{customer}"
     end
-    print "\n"
   end
 end
