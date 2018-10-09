@@ -14,5 +14,14 @@ end
 def take_a_number(array, name)
   array << name
   puts "Welcome, #{name}. You are number #{array.index(name) + 1} in line."
+end
 
+def now_serving(array)
+  line_is_empty(array) ? "There is nobody waiting to be served!" : "Currently serving #{array[0]}"
+end
+    
+
+
+def line_is_empty(array)
+  return array.length == 0
 end
