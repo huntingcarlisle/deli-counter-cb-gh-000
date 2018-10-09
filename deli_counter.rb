@@ -20,7 +20,7 @@ def now_serving(array)
   if line_is_empty(array)
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{array[0]}"
+    puts "Currently serving #{array[0]}."
   end
 end
 
