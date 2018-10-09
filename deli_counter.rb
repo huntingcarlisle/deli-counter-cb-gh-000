@@ -4,8 +4,8 @@ def line(array)
     puts "The line is currently empty."
   else
     puts "The line is currently:" +
-    array.each do |customer|
+    str(array.each do |customer|
       " #{array.index(customer)}. #{customer}"
-    end
+    end)
   end
 end
