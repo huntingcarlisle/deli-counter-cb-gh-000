@@ -6,6 +6,6 @@ def line(array)
     print "The line is currently:"
     array.each do |customer|
       print " #{array.index[customer]}. #{customer}"
-      print "\n""
+      print "\n"
   end
 end
