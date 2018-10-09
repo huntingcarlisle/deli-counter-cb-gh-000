@@ -1,4 +1,4 @@
 # Write your code here.
 def line(array)
-  array.length == 0 ? "The line is currently empty" :
+    "The line is currently empty" if array.length == 0
 end
