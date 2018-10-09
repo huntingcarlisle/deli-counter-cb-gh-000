@@ -5,7 +5,7 @@ def line(array)
   else
     print "The line is currently:"
     array.each do |customer|
-      print " #{array.index[customer]}. #{customer}"
+      print " #{array.index(customer)}. #{customer}"
     end
     print "\n"
   end
