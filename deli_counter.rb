@@ -17,9 +17,9 @@ def take_a_number(array, name)
 end
 
 def now_serving(array)
-  line_is_empty(array) ? "There is nobody waiting to be served!" : "Currently serving #{array[0]}"
+  line_is_empty(array) ? puts "There is nobody waiting to be served!" : puts "Currently serving #{array[0]}"
 end
-    
+
 
 
 def line_is_empty(array)
